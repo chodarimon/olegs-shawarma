@@ -1,0 +1,33 @@
+.navbar-toggler{
+    margin: 0 0;
+}
+
+.form {
+    background: radial-gradient(circle, rgba(252, 136, 132, 70%) 0%, rgba(238, 243, 210, 0%) 100%);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.form h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.form input {
+    margin: 20px auto;
+    padding: 10px;
+    color: black;
+    border-radius: 50px;
+    border: solid 0px;
+    width: auto;
+}
+
+button {
+    color: black;
+    padding: 5px 50px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 50px;
+}
+
+/*-------*/

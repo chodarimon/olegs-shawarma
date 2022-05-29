@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Olegs' Shawarma</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar w-100 navbar-expand-lg navbar-dark py-4">
+        <a class="navbar-brand mx-md-5" href="main.html">
+            <p class="m-0">SHAW<span>ARMA</span></p>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="location.html">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="delivery.html">Delivery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html"><img class="cart-icon" src="img/shopping-cart.png"
+                            alt="cart"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Log in</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Menu -->
+
+    <div class="container py-md-5 menu">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="single-menu">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/menu/beef.jpg" alt="beef shawarma">
+                        </div>
+                        <div class="col-md-9">
+                            <h4 id="order-name">Beef Shawarma</h4>
+                            <p>Beef, tomatoes, parsley, onions, cucumber pickles, tarator sauce</p>
+                            <span id="order-price">1100 ₸</span><button class="buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="single-menu">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/menu/chicken.jpg" alt="chicken shawarma">
+                        </div>
+                        <div class="col-md-9">
+                            <h4 id="order-name">Chicken Shawarma</h4>
+                            <p>Chicken, french fries, cucumber, pickles, garlic</p>
+                            <span id="order-price">1100 ₸</span><button class="buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="single-menu">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/menu/sojok.jpg" alt="sojok shawarma">
+                        </div>
+                        <div class="col-md-9">
+                            <h4 id="order-name">Sojok Shawarma</h4>
+                            <p>Sojok, tomatoes, cucumber, pickles, lemon sauce</p>
+                            <span id="order-price">1290 ₸</span><button class="buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="single-menu">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/menu/kebab.jpg" alt="kebab shawarma">
+                        </div>
+                        <div class="col-md-9">
+                            <h4 id="order-name">Kebab Shawarma</h4>
+                            <p>Kebab, tomatoes, parsley, onions, cucumber, pickles, hummus</p>
+                            <span id="order-price">990 ₸</span><button class="buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="single-menu">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/menu/camel.jpg" alt="camel shawarma">
+                        </div>
+                        <div class="col-md-9">
+                            <h4 id="order-name">Camel Shawarma</h4>
+                            <p>Camel meat, tomatoes, lettuce, jalapeños, roasted capsicum, special sauce</p>
+                            <span id="order-price">1200 ₸</span><button class="buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="single-menu">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/menu/specBeef.jpg" alt="special beef shawarma">
+                        </div>
+                        <div class="col-md-9">
+                            <h4 id="order-name">Special Beef Shawarma</h4>
+                            <p>Beef, tomatoes, cucumber pickles, pomegranate molasses, tarator sauce </p>
+                            <span id="order-price">1300 ₸</span><button class="buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="single-menu">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/menu/specChicken.jpg" alt="special chicken shawarma">
+                        </div>
+                        <div class="col-md-9">
+                            <h4 id="order-name">Special Chicken Shawarma</h4>
+                            <p>Chicken, french fries, coleslaw, tomatoes, cucumber pickles, garlic</p>
+                            <span id="order-price">1300 ₸</span><button class="buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="single-menu">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/menu/specKebab.jpg" alt="special kebab shawarma">
+                        </div>
+                        <div class="col-md-9">
+                            <h4 id="order-name">Special Kebab Shawarma</h4>
+                            <p>Kebab, coleslaw, mozzarella cheese, cherry sauce</p>
+                            <span id="order-price">1200 ₸</span><button class="buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="single-menu">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/menu/secret.jpg" alt="secret shawarma">
+                        </div>
+                        <div class="col-md-9">
+                            <h4 id="order-name">Secret Shawarma</h4>
+                            <p>Unkown mystery...</p>
+                            <span id="order-price">??? ₸</span><!--<button class="buy-btn">Buy</button>-->  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <p class="contact-text">Contact with us:</p>
+        <img id="tg" src="img/telegram.png" alt="telegram">
+        <img id="inst" src="img/instagram.png" alt="instagram">
+        <div class="copyright">
+            &copy; OwO.com | Made by Oleg with Oleg
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
